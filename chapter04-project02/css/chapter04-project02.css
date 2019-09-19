@@ -1,0 +1,172 @@
+/* general text formatting */
+
+
+body {
+ font-family: "Roboto", Verdana, Arial, sans-serif;
+ font-size: 100%;
+ background-color: #ECEFF1;
+}
+
+
+
+h2 { 
+  font-size: 18px; 
+  font-size: 1.5rem;
+}
+h3 { 
+  font-size: 18px; 
+  font-size: 1.125rem;
+  border-bottom: solid 1pt #999999;
+  margin: 0 0 0.5em 0;
+}
+p {
+  font-size: 16px; 
+  font-size: 1rem;
+}
+
+/* link styling */
+
+a:link {
+   font-weight: bold;
+   color: #03A9F4;
+}
+a:visited {
+   color: #6200EA;
+}
+a:hover {
+   background-color: #FF3D00;
+    color: #EDE7F6; 
+}
+a[href^="mailto"] {
+   background: url(../images/email.png) no-repeat 0 3px;
+   padding-left: 1em;
+}
+a[href^="tel"] {
+   background: url(../images/call.png) no-repeat 0 3px;
+   padding-left: 1em;
+}
+
+/* header and navigation */
+
+header {
+ background-image: url(../images/header-background.png);
+ background-repeat: repeat;
+}
+
+header h1 {
+    font-size: 32px;
+    color: white;
+    padding: 0.5rem 0 0.5rem 6rem;
+}
+header h1 span {
+    color: #FF3D00;
+}
+
+nav#MainMenu {
+  background-color: #263238; 
+  font-size: 0.85rem;
+    text-align: right;
+    padding-right: 6rem;
+}
+nav#SecondaryMenu {
+  background-color: #607D8B; 
+  font-size: 1rem;
+  padding-left: 6em;
+}
+nav ul li {
+   list-style: none;
+   display: inline;
+}
+nav {
+   padding: 0.25em;
+}
+nav a {
+   padding: 0.25em;
+}
+
+
+/* section styling */
+article>div {
+   background-color: white;
+   margin: 1rem 6rem 1rem 6rem;
+   text-align: center;
+}
+article>div img {
+   border: solid 1px #999999;
+   padding: 0.5em;
+   margin-top: 1em;
+}
+section {
+   background-color: white;
+   margin: 1em 6em 1em 6em;
+   border: solid 1pt black;
+
+}
+section h3 {
+   color: white;
+   padding: 0.75rem;
+    background-image: url(../images/header-background.png);
+     background-repeat: repeat;
+}
+section p {
+   margin-left: 0.75rem;
+}
+section em {
+   color: #828282;
+}
+section figure img {
+    width: 100%;
+}
+
+
+
+/* actions */
+div.actions ul li{
+   list-style: none;
+   display: inline;
+}
+div.actions {
+   background-color: #607D8B; 
+   font-size: 0.75em;
+   padding: 1em;  
+   margin-top: 1em;
+}
+
+div.actions a {
+   background-color: #FF3D00;
+    color: white;
+   padding: 0.5em 1em 0.5em 2em;
+   border-radius: 4px;
+   margin-right: 0.5em;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+div.actions a:hover {
+    background-color: #FF6E40;
+}
+.actionEdit {
+   background: url(../images/edit.png) no-repeat;
+   background-position: 5px 3px;
+}
+.actionFlag {
+   background: url(../images/flag.png) no-repeat;
+   background-position: 5px 3px;
+}
+
+
+/* footer styling */
+footer {
+   background-color: #263238;
+
+  padding: 0.5rem 0 0.5rem 6rem;
+}
+footer p {
+  font-size: .875rem;
+  color: white;
+}
+footer #copyright {
+font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 0.25rem;
+}
